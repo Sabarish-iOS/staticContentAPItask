@@ -9,7 +9,7 @@ import UIKit
 
 class staticViewModel: NSObject {
 
-    func callStaticContentAPI(url:String, result: @escaping(Result<staticContentBase?,ApiError>) -> Void){
+    func callStaticContentAPI(url:String, result: @escaping(Result<staticContent_Base?,ApiError>) -> Void){
         ApiManager.shared.fetch(baseUrl: url, methodType: .post, contentType: .applicationJson, param: "", completion: result)
     }
 }

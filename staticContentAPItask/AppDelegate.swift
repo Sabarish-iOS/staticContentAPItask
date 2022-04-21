@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Reachability
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

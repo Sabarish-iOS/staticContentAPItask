@@ -1,0 +1,6 @@
+framework module Pods_staticContentAPItask_staticContentAPItaskUITests {
+  umbrella header "Pods-staticContentAPItask-staticContentAPItaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

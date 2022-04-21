@@ -7,7 +7,7 @@
 
 import Foundation
 
-class staticContentBase : Codable {
+class staticContent_Base : Codable {
     let success : Bool?
     let status : Int?
     let footerContent : [FooterContent]?
