@@ -18,6 +18,7 @@ class servicesViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("SampleTest")
         self.serviceTableView.delegate = self
         self.serviceTableView.dataSource = self
         self.callServiceAPI()
